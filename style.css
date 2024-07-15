@@ -1,0 +1,49 @@
+body {
+    background-color: #111927;
+    color: #fff;
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+header a.nav-link.active {
+    color: #fff;
+    text-decoration: underline;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.social-links svg{
+    fill: rgba(255, 255, 255, 0.6);
+    height: 30px;
+}
+header nav {
+    display: flex;
+}
+header nav a {
+    padding: 0 10px;
+    color: rgba(255, 255, 255, 0.6);
+}
+div.intro {
+    background-color: #223040;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+div.intro img {
+    width: 100px;
+}
+div.intro p {
+    margin: 0;
+    align-self: center;
+}
+
